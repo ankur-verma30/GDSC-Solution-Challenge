@@ -1,8 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: rgb(168, 216, 246);
-  
+    background-color: rgb(168, 216, 246); 
 }
 .intro{
     color: rgb(61, 30, 30);
@@ -10,7 +9,4 @@
     margin-top: 20px;
     margin-left: 20px;
     text-decoration: solid  aqua;
-}
-.con{
-    
 }
