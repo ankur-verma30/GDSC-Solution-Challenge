@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.profile{
+    margin-left: 90px;
+    text-align: center;
+    padding-left: 30px;
+    padding-top: 20px;
+    margin-left:20px ;
+    color:lightcoral;
+    font-weight: 900;
+    font-size: 60px;
+    text-decoration: underline;
+}
+.heading{
+    padding-left: 20px;
+    font-size:22px;
+    color:darkblue;
+    line-height: 1.5;
+    text-decoration: underline;
+
+
+}
+.content{
+    text-decoration: solid;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(83, 21, 21);
+
+}
+.image{
+    justify-content: right;
+    height: 350px;
+    width: 600px;
+}
+#watermark{
+    position: relative;
+
+}
+#watermark::after{
+    position: absolute;
+    bottom: 0;
+    right:0;
+    content:"COPYRIGHT";
+}
